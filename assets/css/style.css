@@ -1,0 +1,74 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+/* 
+RED COLOR CODE: DE3163
+PURPLE COLOR CODE: AF69EE
+YELLOW COLOR CODE: #FFFF9F
+*/
+
+body {
+    position: absolute;
+    font-family: "Courier", "Calibri",sans-serif;
+    font-size: 32px;
+    background-color: #FFFF9F;
+    color: #AF69EE;
+}
+
+footer {
+    display: inline;
+    padding: 0px 20px;
+    max-width: 100%;
+    width: 100%;
+    height: 80px;
+    line-height: 50px;
+    background-color: #DE3163;
+    color: #AF69EE;
+}
+
+header {
+    position: static;
+    border-bottom: 5px solid #AF69EE;
+    background-color: #DE3163;
+}
+
+li {
+    display: inline;
+    padding: 0px 20px;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    margin: 20px;
+    color: #AF69EE;
+}
+
+.image-container {
+    display: flex;
+    max-width: 800px;
+    width: 100%;
+    object-position: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.HeadShot {
+    positon: relative;
+    max-width: 200px;
+}
+
+/* Positioning */
+.text-left {
+    text-align: left;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
