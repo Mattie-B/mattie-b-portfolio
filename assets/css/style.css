@@ -47,6 +47,16 @@ a {
     color: #AF69EE;
 }
 
+a1 {
+    text-decoration: none;
+    font-family: "Courier", sans-serif;
+    font-style: italic;
+    font-size: 30px;
+    margin-left: 50%;
+    margin-right: 50%;
+    color: #AF69EE;
+}
+
 p {
     font-size: 24px;
     padding: 5px;
