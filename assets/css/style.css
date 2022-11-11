@@ -7,14 +7,17 @@
 RED COLOR CODE: DE3163
 PURPLE COLOR CODE: AF69EE
 YELLOW COLOR CODE: #FFFF9F
+PINK COLOR CODE: #F79AC0
+BLUE COLOR CODE: #82EEFD
+DARK RED COLOR CODE: #750000
 */
 
 body {
     position: relative;
     font-family: "Courier", "Arial", "Goudy Type", "Calibri",sans-serif;
     font-size: 32px;
-    background-color: #FFFF9F;
-    color: #AF69EE;
+    background-color: #F79AC0;
+    color: #750000;
 }
 
 footer {
@@ -22,14 +25,14 @@ footer {
     height: 50px;
     line-height: 50px;
     font-weight: bold;
-    border-top: 7px solid #AF69EE;
+    border-top: 7px solid #750000;
     background-color: #DE3163;
-    color: #AF69EE;
+    color: #750000;
 }
 
 header {
     position: static;
-    border-bottom: 7px solid #AF69EE;
+    border-bottom: 7px solid #750000;
     background-color: #DE3163;
 }
 
@@ -42,19 +45,18 @@ li {
 a {
     text-decoration: none;
     font-family: "Courier", sans-serif;
-    font-weight: bold;
-    font-size: 50px;
-    color: #AF69EE;
+    font-style: italic;
+    font-size: 30px;
+    padding: 50px;
+    color: #750000;
 }
 
 a1 {
     text-decoration: none;
     font-family: "Courier", sans-serif;
-    font-style: italic;
-    font-size: 30px;
-    margin-left: 50%;
-    margin-right: 50%;
-    color: #AF69EE;
+    font-weight: bold;
+    font-size: 50px;
+    color: #750000;
 }
 
 p {
@@ -86,18 +88,31 @@ h2 {
     display: block;
     max-width: 400px;
     width: 100%;
+    border: 4px solid #750000;
+}
+
+.Hor-Site {
+    position: relative;
+    max-width: 800px;
+    width: 100%;
+    margin-top: 25px;
+    border: 4px solid #750000;
 }
 
 .DG-Site {
     position: relative;
     max-width: 800px;
     width: 100%;
+    margin-top: 25px;
+    border: 4px solid #750000;
 }
 
 .Macro-Site {
     position: relative;
     max-width: 800px;
     width: 100%;
+    margin-top: 25px;
+    border: 4px solid #750000;
 }
 
 /* Positioning */
